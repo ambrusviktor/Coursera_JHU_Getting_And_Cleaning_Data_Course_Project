@@ -8,6 +8,7 @@ The source data are from the Human Activity Recognition Using Smartphones Data S
 The run_analysis.R script performs the data preparation and then followed by the 5 steps required as described in the course project’s definition.
 
 # 1.Download the dataset
+Dataset is downloaded from the provided links to your working directory
 
 # 2.Assign each data to variables
 * features <- features.txt: The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
