@@ -26,11 +26,13 @@ The run_analysis.R script performs the data preparation and then followed by the
 * Merged_Data  is created by merging Subject, Y and X using cbind() function
 
 # 4. Extracts only the measurements on the mean and standard deviation for each measurement
-        TidyData is created by subsetting Merged_Data, selecting only columns: subject, code and the measurements on the mean and standard deviation (std) for each measurement
-        Need to import the DplyR package to perform these operations
+
+TidyData is created by subsetting Merged_Data, selecting only columns: subject, code and the measurements on the mean and standard deviation (std) for each measurement
+Need to import the DplyR package to perform these operations
 
 # 5. Uses descriptive activity names to name the activities in the data set
-        Entire numbers in code column of the TidyData replaced with corresponding activity taken from second column of the activities variable
+
+Entire numbers in code column of the TidyData replaced with corresponding activity taken from second column of the activities variable
 
 # 6. Appropriately labels the data set with descriptive variable names:
 * code column in TidyData renamed into activities
